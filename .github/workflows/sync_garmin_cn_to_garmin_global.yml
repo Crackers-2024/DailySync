@@ -3,8 +3,8 @@ name: Sync Garmin CN to Garmin Global
 on:
   workflow_dispatch:
   schedule:
-    #  每天北京时间21:04检查一次
-    - cron: "04 13 * * *"
+    #  每天北京时间20:04检查一次
+    - cron: "04 12 * * *"
   push:
     branches:
       - main
